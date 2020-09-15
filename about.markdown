@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Chris Hurley is a Computer Engineer from 
+[Roseville, CA](https://en.wikipedia.org/wiki/Roseville,_California). 
+Chris programs primarily in [C++](https://en.wikipedia.org/wiki/C%2B%2B) and 
+[Python](https://www.python.org/about/) to develop new technology. 
+Chris loves parenting, playing [games](https://magic.wizards.com/), or both!
