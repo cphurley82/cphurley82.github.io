@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Hello World!"
-date:   2020-09-14 20:00:00 -0700
 categories: 
 ---
 Welcome to my first post! Now that I've got this site up and running, my hope
