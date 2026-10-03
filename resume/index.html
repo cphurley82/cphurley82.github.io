@@ -204,16 +204,19 @@ color-scheme: dark;
 --indent: 0rem;
 background: var(--bg);
 color: var(--ink);
-font: 400 16px/1.5 var(--font-body);
+
+font: 400 clamp(16px, 12.5px + 0.3vw, 19px)/1.5 var(--font-body);
 -webkit-text-size-adjust: 100%;
 text-size-adjust: 100%;
 body {
 margin: 0;
 }
+
 main {
-max-width: 52rem;
+box-sizing: border-box;
+max-width: 110rem;
 margin: 0 auto;
-padding: 4rem 1.5rem 5rem;
+padding: 4rem clamp(1.5rem, 5vw, 6rem) 5rem;
 }
 main a {
 color: var(--link);
@@ -437,8 +440,9 @@ transform: translate(-50%, -50%);
 
 &[data-scheme="dark"] {
 main {
+max-width: min(110rem, calc(100% - 7rem));
 margin: 3.5rem auto;
-padding: 3.5rem 3.5rem 4rem;
+padding: 3.5rem clamp(3.5rem, 5vw, 6rem) 4rem;
 border-radius: 1.1rem;
 background:
 radial-gradient(circle at 26px 26px, var(--page-bg) 0 6px, var(--pad) 6.6px 11px, transparent 11.6px),
@@ -686,7 +690,7 @@ background-color: light-dark(#fdfdfd, #1a1a1a);
 color-scheme: light dark;
 body {
 margin: 0 auto;
-max-width: 36em;
+max-width: 110rem; 
 padding-left: 50px;
 padding-right: 50px;
 padding-top: 50px;
